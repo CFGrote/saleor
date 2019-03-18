@@ -15,8 +15,8 @@ const styles = (theme: Theme) =>
       height: 56
     },
     hr: {
-      backgroundColor: "#eaeaea",
       border: "none",
+      borderBottom: `1px solid ${theme.overrides.MuiCard.root.borderColor}`,
       height: 1,
       marginBottom: 0,
       marginTop: 0
